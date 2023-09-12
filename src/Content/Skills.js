@@ -10,35 +10,37 @@ import react from './ico/react.png'
 
 function Skills(){
     return(
-        <div className='skills-wrapper'>
-            <div className='skills-header'>
-                <hr></hr>
-                <h1>Skills</h1>
-            </div>
-            <section>
-                <div className='skills-container'>
-                    <div className='skills-content'>
-                        <h1>What can I do?</h1>
-                        <p>
-                        I possess a robust foundation in programming, encompassing a diverse array of languages and tools that I've honed over the years. I am proficient in a small range of programming languages.
-                        </p>
-                        <div className='skills-ico'>
-                            <p>Skills:</p>
-                            <div className='ico-container'>
-                                <div className='skill'><img src={java}/><span>Java</span></div>
-                                <div className='skill'><img src={python}/><span>Python</span></div>
-                                <div className='skill'><img src={html}/><span>HTML</span></div>
-                                <div className='skill'><img src={css}/><span>CSS</span></div>
-                                <div className='skill'><img src={mysql}/><span>MySQL</span></div>
-                                <div className='skill'><img src={react}/><span>React</span></div>
+        <div className='skills'>
+            <div className='skills-wrapper'>
+                <div className='skills-header'>
+                    <hr></hr>
+                    <h1>Skills</h1>
+                </div>
+                <section>
+                    <div className='skills-container'>
+                        <div className='skills-content'>
+                            <h1>What can I do?</h1>
+                            <p>
+                            I possess a robust foundation in programming, encompassing a diverse array of languages and tools that I've honed over the years. I am proficient in a small range of programming languages.
+                            </p>
+                            <div className='skills-ico'>
+                                <p>Skills:</p>
+                                <div className='ico-container'>
+                                    <div className='skill'><img src={java}/><span>Java</span></div>
+                                    <div className='skill'><img src={python}/><span>Python</span></div>
+                                    <div className='skill'><img src={html}/><span>HTML</span></div>
+                                    <div className='skill'><img src={css}/><span>CSS</span></div>
+                                    <div className='skill'><img src={mysql}/><span>MySQL</span></div>
+                                    <div className='skill'><img src={react}/><span>React</span></div>
+                                </div>
                             </div>
                         </div>
+                        <div className='animation-container'>
+                            <AnimationComponent/>
+                        </div>
                     </div>
-                    <div className='animation-container'>
-                        <AnimationComponent/>
-                    </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     );
 }
