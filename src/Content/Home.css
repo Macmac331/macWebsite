@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh; 
+    height: 82vh; 
 }
 .home-detail{
     line-height: 1.5rem;
@@ -55,6 +55,9 @@
     background: #3bbdf7;
     transform: translateY(-10px);
 }
+.home-detail {
+    animation: fadeInLeft 1s ease-in-out;
+}
 @keyframes fadeInLeft {
     from {
         opacity: 0;
@@ -64,7 +67,4 @@
         opacity: 1;
         transform: translateX(0);
     }
-}
-.home-detail {
-    animation: fadeInLeft 1s ease-in-out;
 }

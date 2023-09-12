@@ -1,5 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic&display=swap');
 
-.wrapper{
-    height: 85vh;
+.about-wrapper{
+    display: flex;
+    height: 90vh;
     max-width: 100%;
+    padding-top: 50px;
+}
+.about-header{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+hr{
+    border-color:#3bbdf7;
+    width: 200px;
+    margin-right: 20px;
+}
+.about-header h1{
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    color: #3bbdf7;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.about-content{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+.about-me{
+    max-width: 600px;
+    margin-top: 70px;
+    padding-right: 100px;
+}
+.about-me h1{
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+.about-me p{    
+    font-size: 18px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #5f6e83;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+.animation-container{
+    margin-left: 50px;
+    margin-right: 20px;
+    max-width: 40%;
+    max-height: 100%;
+}
+.socials p{
+    margin-top: 10px;
+    font-family: 'Noto Sans Old Permic', sans-serif;
+    color: white;
+}
+.socials {
+  position: relative;
+}
+.socials-ico img {
+    padding: 10px 10px 10px 5px;
+    transition: transform 0.3s ease 0s;
+}
+.socials a img:hover{
+    transform: scale(1.2);
 }
