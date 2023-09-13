@@ -1,9 +1,6 @@
 import './About.css';
 import Lottie from 'react-lottie';
 import animationData from './aboutme.json';
-import fbIco from './ico/fbIco.png';
-import igIco from './ico/igIco.png';
-import linkedIco from './ico/linkedIco.png';
 
 function About(){
     return(
