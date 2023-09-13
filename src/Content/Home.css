@@ -15,11 +15,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 82vh; 
+    height: 95vh;
+    padding-top: 10vh;
 }
 .home-detail{
     line-height: 1.5rem;
-    letter-spacing: .5px;   
+    letter-spacing: .5px; 
+    align-items: center;
+    margin-top: -20px;
 }
 .home-detail h1{
     letter-spacing: 1px;

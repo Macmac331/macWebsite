@@ -19,7 +19,7 @@ function Skills(){
                 <section>
                     <div className='skills-container'>
                         <div className='skills-content'>
-                            <h1>What can I do?</h1>
+                            <h1>What I am capable of?</h1>
                             <p>
                             I possess a robust foundation in programming, encompassing a diverse array of languages and tools that I've honed over the years. For now, I am proficient in a small range of programming languages.
                             </p>

@@ -4,13 +4,12 @@
 .skills-wrapper{
     width: 100%;
     height: 90vh;
-    padding-top: 50px;
+    padding-top: 15vh;
 }
 .skills-header{
     margin-right: 50px;
     display: flex;
     align-items: center;
-    margin-top: -10px;
     flex-flow: row-reverse;
 }
 hr{
@@ -24,6 +23,7 @@ hr{
     font-weight: 800;
     font-size: 18px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 .skills-container{
     display: flex;
