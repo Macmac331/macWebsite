@@ -19,14 +19,6 @@ function About(){
                             <div className="about-me">
                                 <h1>Who am I?</h1>
                                 <p>I am currently a 3rd year Computer Science who is aspiring to be a full-stack developer. I thrive on challenges and I constantly seek opportunities to expand my skill set. I'm excited to continue my journey in the world of software development, where I can leverage my knowledge and creativity to build innovative and user-friendly solutions.</p>
-                                <div className="socials">
-                                    <p>Socials</p>
-                                    <div className="socials-ico">
-                                        <a href='https://www.facebook.com/Peppapigmacmac/' target='_blank'><img src={fbIco}/></a>
-                                        <a href='https://www.instagram.com/machehehehe/' target='_blank'><img src={igIco}/></a>
-                                        <a href='https://www.linkedin.com/in/marc-albert-bautista-33b035268/'  target='_blank'><img src={linkedIco}/></a>
-                                    </div>
-                                </div>
                             </div>
                             <div className="animation-container">
                                 <AnimationComponent />

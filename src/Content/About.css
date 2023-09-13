@@ -50,24 +50,11 @@ hr{
     font-weight: 600;
     color: #5f6e83;
     letter-spacing: 1px;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 .animation-container{
     margin-left: 120px;
     margin-top: 30px;
     max-width: 35%;
     max-height: 100%;
-}
-.socials p{
-    margin-top: 10px;
-    font-size: 20px;
-    font-family: 'Noto Sans Old Permic', sans-serif;
-    color: #0f6497;
-}
-.socials-ico img {
-    padding: 10px 30px 10px 5px;
-    transition: transform 0.1s ease 0s;
-}
-.socials a img:hover{
-    transform: scale(1.2);
 }

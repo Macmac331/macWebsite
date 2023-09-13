@@ -6,7 +6,8 @@ import mysql from './ico/mysql.png';
 import python from './ico/python.png';
 import html from './ico/html.png';
 import css from './ico/css.png';
-import react from './ico/react.png'
+import react from './ico/react.png';
+import csharp from './ico/csharp.png';
 
 function Skills(){
     return(
@@ -32,6 +33,7 @@ function Skills(){
                                     <div className='skill'><img src={css}/><span>CSS</span></div>
                                     <div className='skill'><img src={mysql}/><span>MySQL</span></div>
                                     <div className='skill'><img src={react}/><span>React</span></div>
+                                    <div className='skill'><img src={csharp}/><span>C#</span></div>
                                 </div>
                             </div>
                         </div>
@@ -53,7 +55,6 @@ const AnimationComponent = () => {
         preserveAspectRatio: 'xMidYMid slice'
       }
     };
-  
     return <Lottie options={defaultOptions} />;
 };
 

@@ -1,0 +1,18 @@
+
+footer{
+    display: flex;
+    height: 10vh;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 50;
+    letter-spacing: 2px;
+    color: #5f6e83;
+}
+span{
+    color: #3bbdf7;
+}
