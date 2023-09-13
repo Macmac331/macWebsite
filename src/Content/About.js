@@ -1,5 +1,5 @@
 import './About.css';
-import Lottie from 'react-lottie';
+import Lottie from './node_modules/react-lottie';
 import animationData from './aboutme.json';
 
 function About(){
