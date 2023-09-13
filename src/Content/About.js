@@ -15,7 +15,7 @@ function About(){
                         <div className="about-content">
                             <div className="about-me">
                                 <h1>Who am I?</h1>
-                                <p>I am currently a 3rd year Computer Science who is aspiring to be a full-stack developer. I thrive on challenges and I constantly seek opportunities to expand my skill set. I'm excited to continue my journey in the world of software development, where I can leverage my knowledge and creativity to build innovative and user-friendly solutions.</p>
+                                <p>I am currently a 3rd year Computer Science student who is aspiring to be a full-stack developer. I thrive on challenges and I constantly seek opportunities to expand my skill set. I'm excited to continue my journey in the world of software development, where I can leverage my knowledge and creativity to build innovative and user-friendly solutions.</p>
                             </div>
                             <div className="animation-container">
                                 <AnimationComponent />
