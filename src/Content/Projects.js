@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Design/Projects.css';
 import project01 from './image/project01.png';
 import csharp from './ico/csharp.png';
 import sql from './ico/mysql.png';

@@ -10,7 +10,6 @@ import Footer from './Content/Footer.js';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Home/>
       <About/>
       <Skills/>

@@ -5,26 +5,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic&display=swap');
 /* font-family: 'Oswald', sans-serif; */
 /* font-family: 'Noto Sans Old Permic', sans-serif; */
-
-*{      
-    padding: 0;
-    margin: 0;
-}
 .wrapper{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-    padding-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
+  height: 85vh;
+  padding-top: 15vh;
+  
 }
-.home-detail{
-    line-height: 1.5rem;
-    letter-spacing: .5px; 
-    align-items: center;
-    margin-top: -50px;
+.container{
+  margin:0 auto;
+  margin-top: 120px;
+  padding: 10px;
 }
-.home-detail h1{
+
+.container h1{
     letter-spacing: 1px;
     font-weight: 100;
     font-size: 40px;
@@ -34,14 +31,14 @@
     -webkit-text-fill-color: transparent;
     line-height: 1.2;
 }
-.home-detail p{
+.container p{
     font-size: 18px;
-    padding-top: 10px; 
+    margin-top: -20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #5f6e83;
 }
-.home-detail a{
+.container a{
     margin-top: 15px;
     padding: 15px 25px;
     text-decoration: none;
@@ -52,13 +49,13 @@
     font-family: 'Montserrat', sans-serif;
     transition: transform 0.3s ease 0s;
 }
-.home-detail a:hover{
+.container a:hover{
     font-weight: bold;
     color: black;
     background: #3bbdf7;
     transform: translateY(-10px);
 }
-.home-detail {
+.container {
     animation: fadeInLeft 1s ease-in-out;
 }
 @keyframes fadeInLeft {
@@ -71,3 +68,43 @@
         transform: translateX(0);
     }
 }
+@media (max-width: 1536px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .container {
+      max-width: 475px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .container {
+      width: 100%;
+    }
+  }

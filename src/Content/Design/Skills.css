@@ -27,18 +27,18 @@ hr{
 }
 .skills-container{
     display: flex;
-    margin-top: 10%;
+    margin-top: 15%;
     padding-left: 50px;
     padding-right: 200px;
 }
-.animation-container{
+.animation-container2{
     max-width: 35%;
     max-height: 90%;
     transform: scaleX(-1);
-    margin-top: -20px;
+    margin-top: -60px;
 }
 .skills-content{
-    margin-top: -30px;
+    margin-top: -150px;
     padding-left: 50px;
     position: relative;
 }
@@ -50,12 +50,12 @@ hr{
 }
 .skills-content p{
     font-size: 18px;
-    padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: #5f6e83;
     letter-spacing: 1px;
     line-height: 1.5rem;
+    margin-top: -40px;
 }
 .skills-img {
     display: flex;
@@ -64,7 +64,7 @@ hr{
 }
 .skills-ico p {
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 30px;
     font-family: 'Noto Sans Old Permic', sans-serif;
     color: #0f6497;
 }

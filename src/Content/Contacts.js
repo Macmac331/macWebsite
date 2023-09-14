@@ -1,4 +1,4 @@
-import './Contacts.css';
+import './Design/Contacts.css';
 import github from './ico/github.png';
 import fb from './ico/fbIco.png';
 import ig from './ico/igIco.png';

@@ -1,6 +1,6 @@
-import './Skills.css';
+import './Design/Skills.css';
 import Lottie from 'react-lottie';
-import techStack from './tech-stack.json'; 
+import techStack from './image/tech-stack.json'; 
 import java from './ico/java.png';
 import mysql from './ico/mysql.png';
 import python from './ico/python.png';
@@ -37,7 +37,7 @@ function Skills(){
                                 </div>
                             </div>
                         </div>
-                        <div className='animation-container'>
+                        <div className='animation-container2'>
                             <AnimationComponent/>
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const AnimationComponent = () => {
       animationData: techStack,
       rendererSettings: {
         preserveAspectRatio: 'xMidYMid slice'
-      }
+      },
     };
     return <Lottie options={defaultOptions} />;
 };

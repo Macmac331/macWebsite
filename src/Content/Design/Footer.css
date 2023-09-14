@@ -1,8 +1,9 @@
 
 footer{
+    overflow: hidden;
     display: flex;
     height: 10vh;
-    align-items: end;
+    align-items: flex-end;
     justify-content: center;
     margin-bottom: 5px;
 }
@@ -12,6 +13,7 @@ h1{
     font-weight: 50;
     letter-spacing: 2px;
     color: #5f6e83;
+    
 }
 span{
     color: #3bbdf7;
