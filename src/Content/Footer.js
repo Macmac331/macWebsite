@@ -3,7 +3,10 @@ function Footer(){
     return(
         <div>
             <footer>
-                <h1>@Portfolio Created by <span>Marc Albert Bautista</span></h1>
+                <div className='footer-desc'>
+                    <h1>@Portfolio Created by <span>Marc Albert Bautista</span> macmacmac</h1>
+                </div>
+                
             </footer>
         </div>
     );

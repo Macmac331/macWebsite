@@ -1,20 +1,44 @@
 
 footer{
-    overflow: hidden;
     display: flex;
-    height: 10vh;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 5px;
+    flex-direction: column;
+    text-align: center;
 }
-h1{
+.footer-desc h1{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px;
     font-weight: 50;
     letter-spacing: 2px;
     color: #5f6e83;
-    
+    width: 500px;
 }
-span{
+.footer-desc span{
     color: #3bbdf7;
+}
+@media(max-width:768px){
+    .footer-desc{
+        margin-left: 70px;
+    }
+}
+@media(max-width:640px){
+    .footer-desc{
+        margin-left: 220px;
+    }
+}
+@media(max-width:476px){
+    footer{
+        display: flex;         
+        justify-content: center;
+
+    }
+    .footer-desc{
+        margin-left: 400px;
+    }
+}
+@media(max-width:376px){
+    .footer-desc{
+        margin-left: 470px;
+    }
 }

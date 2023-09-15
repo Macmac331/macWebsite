@@ -55,6 +55,7 @@ hr{
     padding-top: 60px;
     max-width: 100%;
     max-height: 100%;
+    transform: scaleX(-1);
 }
 @media (max-width: 1536px) {
     .container {
@@ -86,11 +87,10 @@ hr{
         font-size: 17px;
     }
 }
-  
-  /* lg */
 @media (max-width: 1024px) {
     .container {
       max-width: 768px;
+      width: 768px;
     } 
     .about-wrapper{
         height: 100vh;
@@ -98,7 +98,7 @@ hr{
     .about-content{
         display: block;
         padding-right: 50px;
-        margin-top: -130px;
+        margin-top: -150px;
     }
     .about-me{
         width: 100%;
@@ -111,6 +111,7 @@ hr{
     .about-me p{
         line-height: 1.8rem;
         font-size: 20px;
+        width: 600px;
     }
 }
   
@@ -124,7 +125,7 @@ hr{
     }
     .about-me{
         width: 100%;
-        margin-left: -40px;
+        margin-left: 30px;
     }
     .about-me h1{   
         font-size: 60px;
@@ -145,11 +146,20 @@ hr{
 }
   
   /* xs */
-@media (max-width: 475px) {
+@media (max-width: 476px) {
     .container {
       width: 100%;
     }
+    .about-wrapper{
+        height: 120vh;
+    }
+    .about-me{
+        margin-left: -10px;
+    }
     .about-me h1{   
         font-size: 60px;
+    }
+    .about-me p{
+        font-size: 25px;
     }
 }

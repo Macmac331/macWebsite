@@ -5,6 +5,7 @@ import sql from './ico/mysql.png';
 function Projects(){
     return(
         <div className='projects'>
+            <div className='container'>
                 <div className='projects-wrapper'>
                     <section>
                         <div className='projects-header'>
@@ -16,7 +17,7 @@ function Projects(){
                             <div className='project-desc'>
                                 <h1>WeBank Inc.</h1>
                                 <h3>Make transactions fast and easy</h3>
-                                <p>WeBank Inc. is a desktop application that I developed and completed during my second year, it exemplifies my proficiency in both programming languages and database management. By creating WeBank, I sought to gain some knowledge how banking technology works. This endeavor not only allowed me to apply my technical skills but also provided me with a deeper understanding of using databases, software security, and also Object-oriented Programming. </p>
+                                <p>WeBank Inc. is a desktop application that I developed and completed during my second year, it exemplifies my proficiency in both programming languages and database management. By creating WeBank, I sought to gain some knowledge how banking technology works. </p>
                                 <div className='icon'>
                                     <img src={csharp}/>
                                     <img src={sql}/>
@@ -27,6 +28,7 @@ function Projects(){
                             </div>
                         </div>
                     </section>
+                </div>
             </div>
         </div>
     );

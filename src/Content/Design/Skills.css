@@ -28,14 +28,13 @@ hr{
 .skills-container{
     display: flex;
     margin-top: 15%;
-    padding-left: 50px;
-    padding-right: 200px;
 }
 .animation-container2{
-    max-width: 35%;
-    max-height: 90%;
-    transform: scaleX(-1);
     margin-top: -60px;
+    padding-left: -100px;
+    max-width: 100%;
+    max-height: 100%;
+    transform: scaleX(-1);
 }
 .skills-content{
     margin-top: -150px;
@@ -86,4 +85,65 @@ hr{
     margin-top: 50px;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width:1280px){
+    .container{
+        min-width: 1024px;
+    }
+    .animation-container2{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        max-width: 768px;
+    }
+    .skills-wrapper{
+        padding-top: 200px;
+        height: 100vh;
+    }
+    .skills-container{
+        display: block;
+    }
+    .skills-content{
+        margin-top: -60px;
+    }
+    .skills-content p{
+        line-height: 1.8rem;
+        font-size: 20px;
+    }
+    .animation-container2{
+        margin-top: 0px;
+        max-width: 50%;
+        left: 50%;
+        transform: translate(50%);
+
+    }
+}
+@media (max-width:768px){
+    .container{
+        max-width: 640px;
+    }
+    .skills-wrapper{
+        height: 100vh;
+    }
+}
+
+@media(max-width: 640px){
+    .container{
+        max-width: 475px;
+    }
+}
+@media (max-width: 475px){
+    .skills-wrapper{
+        height: 120vh;
+    }
+    .skills-header{
+        margin-top: -50px;
+    }
+    .skills-content p{
+        font-size: 25px;
+    }
 }

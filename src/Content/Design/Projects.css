@@ -24,13 +24,13 @@ hr{
 }
 .project{
     display: flex;
-    margin-top: 5%;
+    margin-top: 9%;
     padding-left: 50px;
     padding-right: 200px;
 }
 .project-desc{
-    margin-top: -100px;
-    padding: 50px;
+    margin-left: -20px;
+    margin-top: -50px;
 }
 .project-desc h1{
     letter-spacing: 3px;
@@ -57,7 +57,8 @@ hr{
 }
 
 .project-image{
-    margin-right: -180px;
+    margin-right: -280px;
+
 }
 .project-image img{
     margin-top: -60px;
@@ -65,15 +66,108 @@ hr{
     height: 500px;
     transition: transform 0.1s ease 0s;
 }
-.icon{
-    margin-top: 10px;
-}
 .icon img{
     height: 50px;
     width: 50px;
-    padding: 10px 10px 10px 5px;
+    padding: 0px 10px 10px 5px;
     filter: invert(100%);
 }
 .project-image img:hover{
     transform: scale(1.01);
+}
+@media(max-width: 1280px){
+    .container{
+        min-width: 1024px;
+    }
+    .projects-wrapper{
+        height: 100vh;
+    }
+    .project-image img{
+        margin-right: 50px;
+        max-width: 550px;
+    }
+    .project-desc h1{
+        font-size: 50px;
+    }
+    .project-desc h3{
+        margin-top: -50px;
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width:1024px){
+    .container{
+        min-width: 768px;
+    }
+    .projects-wrapper{
+        padding-top: 150px;
+        height: 100vh;
+    }
+    .project{
+        display: block;
+        margin-top: 20px;
+    }
+    .project-desc{
+        display: inline-block;
+        width: 700px;
+        margin-left: -10px;
+        padding: 10px;
+    }
+    .project-image{
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    .project-image img{
+        height: 400px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        max-width: 475px;
+    }
+    .projects-header{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .project-desc{
+        margin-top: -50px;
+    }
+    .project-image img{
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+}
+@media(max-width:640px){
+    .container{
+        max-width: 475px;
+    }
+    .projects-wrapper{
+        height: 100vh;
+    }
+    .project-desc p{
+        font-size: 20px;
+    }
+}
+@media (max-width:476px){
+    .projects-wrapper{
+        padding-top: 50px;
+        height: 120vh;
+    }
+    .project-desc{
+        margin-top: -30px;
+    }
+    .project-desc h1{ 
+        font-size: 60px;
+    }
+    .project-desc p{
+        font-size: 25px;
+    }
+    .project-image{
+        margin-top: -10px;
+    }
+    .project-image img{
+        height: 300px;
+    }
+
 }

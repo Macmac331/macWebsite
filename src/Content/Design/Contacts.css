@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -50px;
 }
 hr{
     border-color:#3bbdf7;
@@ -39,4 +40,20 @@ hr{
     width: 55px;
     filter: invert(70%);
     margin: 10px;
+}
+
+@media (max-width:768px){
+    .container{
+        max-width: 475px;
+    }
+    .contacts-wrapper{
+        height: 150vh;
+    }
+    .contacts-header{
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .contacts-visit{
+        margin-left: 50px;
+    }
 }
