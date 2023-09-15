@@ -8,9 +8,8 @@ nav{
     background-color: #0e162a;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     align-items:  center;
-    justify-content: flex-end; 
+    justify-content: center; 
     z-index: 100;
-    
 }
 nav ul{
     display:flex;
@@ -28,4 +27,13 @@ nav ul li a{
 nav ul li a:hover{
     color: #3bbdf7;
     cursor: pointer;
+}
+
+@media (max-width:475px){
+    nav {
+        height: 20vh; /* Adjust the value to your preference */
+    }
+    nav ul li a{
+        font-size: 25px;
+    }
 }

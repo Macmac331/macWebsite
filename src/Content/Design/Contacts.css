@@ -47,7 +47,10 @@ hr{
         max-width: 475px;
     }
     .contacts-wrapper{
-        height: 150vh;
+        height: 140vh;
+    }
+    .contacts-header h1{
+        font-size: 25px;
     }
     .contacts-header{
         margin-left: 50px;
@@ -55,5 +58,6 @@ hr{
     }
     .contacts-visit{
         margin-left: 50px;
+        margin-top: 150px;
     }
 }

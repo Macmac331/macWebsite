@@ -138,12 +138,31 @@ hr{
 }
 @media (max-width: 475px){
     .skills-wrapper{
-        height: 120vh;
+        height: 200vh;
     }
-    .skills-header{
-        margin-top: -50px;
+    .skills-header h1{
+        font-size: 25px;
+    }
+    .skills-content{
+        margin-top: 50px;
     }
     .skills-content p{
-        font-size: 25px;
+        font-size: 40px;
+        letter-spacing: 2px;
+        line-height: 3rem;
+    }
+    .skill {
+        width: 48%; /* Adjust this as needed */
+        margin-bottom: 1em; /* Adjust this for spacing */
+        text-align: center; /* Center the text */
+    }
+    .skill img {
+        width: 80%;
+        height: auto;
+    }
+    .skill span {
+        margin-top: 0px;
+        display: block;
+        font-size: 18px;
     }
 }
