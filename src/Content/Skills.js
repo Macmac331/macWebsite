@@ -8,8 +8,18 @@ import html from './ico/html.png';
 import css from './ico/css.png';
 import react from './ico/react.png';
 import csharp from './ico/csharp.png';
-
+import {useEffect} from 'react';
+import { useInView } from 'react-intersection-observer';
 function Skills(){
+    const { ref:myRef, inView:myElementIsVisible} = useInView({
+        threshold: 0.2
+    });
+    useEffect(() => {
+        if(myElementIsVisible){
+            document.querySelector('.animate-skill').classList.add('active');
+            
+        }
+    }, [myElementIsVisible]);
     return(
         <div className='skills'>
             <div className='container'>
@@ -19,7 +29,10 @@ function Skills(){
                         <h1>Skills</h1>
                     </div>
                     <section>
-                        <div className='skills-container'>
+                        <div ref={myRef} className='skills-container animate-skill'>
+                            <div className='skills-bg'>
+                                <div className='bg'>SKILLS</div>
+                            </div>
                             <div className='skills-content'>
                                 <h1>What I am capable of?</h1>
                                 <p>

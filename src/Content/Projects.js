@@ -2,7 +2,17 @@ import './Design/Projects.css';
 import project01 from './image/project01.png';
 import csharp from './ico/csharp.png';
 import sql from './ico/mysql.png';
+import {useEffect} from 'react';
+import { useInView } from 'react-intersection-observer';
 function Projects(){
+    const {ref:myRef, inView:myElementIsVisible} = useInView({
+        threshold: 0.2
+    });
+    useEffect(() =>{
+        if(myElementIsVisible){
+            document.querySelector('.animate-proj').classList.add('active');
+        }
+    }, [myElementIsVisible]);
     return(
         <div className='projects'>
             <div className='container'>
@@ -13,7 +23,7 @@ function Projects(){
                             <h1>Projects</h1>
                             <hr></hr>
                         </div>
-                        <div className='project'>
+                        <div ref={myRef} className='project animate-proj'>
                             <div className='project-desc'>
                                 <h1>WeBank Inc.</h1>
                                 <h3>Make transactions fast and easy</h3>

@@ -9,7 +9,7 @@
 .about-header{
     display: flex;
     align-items: center;
-    margin-top: -110px;
+    margin-top: 10px;
 }
 hr{
     border-color:#3bbdf7;
@@ -29,6 +29,7 @@ hr{
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
+    margin-top: -40px;
 }
 .about-me{
     max-width: 600px;
@@ -57,12 +58,60 @@ hr{
     max-height: 100%;
     transform: scaleX(-1);
 }
-@media (max-width: 1536px) {
-    .container {
-      max-width: 1280px;
+.animate-me{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animate-me.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.about-detail{
+    position: relative;
+}
+.about-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 ;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 15vw;
+    font-family: 'Anton', sans-serif;
+    opacity: 0.4;
+    z-index: -1;
+}
+.bg {
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 5px rgb(217, 158, 158);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0.2;
+  }
+@media (min-width:1537px) {
+    .container{
+        min-width: 1280px;
+    }
+    .about-me{
+        margin-left: 200px;
+     }
+     .about-me h1{
+        margin-left: -50px;
+     }
+    .about-me p{
+        margin-left: -50px;
+        font-size: 25px;
+        letter-spacing: 2px;
+        
     }
 }
-  
 
 @media (max-width: 1280px) {
     .container {
@@ -72,6 +121,9 @@ hr{
         max-width: 100%;
         padding-top: 100px;
         margin-left: 30px;
+    }
+    .about-bg{
+        margin-top: 50px;
     }
     .about-me{
         padding-top: 50px;
@@ -153,10 +205,7 @@ hr{
     .about-wrapper{
         height: 200vh;
     }
-    .about-me{
-        margin-top: 50px;
-        margin-left: -10px;
-    }
+
     .about-header h1{
         font-size: 25px;
     }
@@ -164,16 +213,31 @@ hr{
         margin-left: 10px;
         margin-top: 30px;
     }
-
+    .about-content{
+        margin-top: 2px;
+    }
     .animation-container{
         margin-top: -50px;
     }
+    .about-me{
+        margin-top: 30px;
+        margin-left: -50px;
+    }
     .about-me h1{   
-        font-size: 60px;
+        font-size: 80px;
     }
     .about-me p{
         font-size: 40px;
         letter-spacing: 2px;
         line-height: 3rem;
+    }
+    .animate-me {
+        opacity: 0;
+        transform: translateY(100px);
+        transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+    .animate-me.active {
+        opacity: 1;
+        transform: translateY(0);
     }
 }

@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -50px;
+    margin-top: 10px;
 }
 hr{
     border-color:#3bbdf7;
@@ -24,7 +24,7 @@ hr{
     letter-spacing: 2px;
 }
 .contacts-visit{
-    margin-top: 10%;
+    margin-top: 15%;
     text-align: center;
 }
 .contacts-visit h1{

@@ -30,7 +30,7 @@ hr{
 }
 .project-desc{
     margin-left: -20px;
-    margin-top: -50px;
+    margin-top: -90px;
 }
 .project-desc h1{
     letter-spacing: 3px;
@@ -75,6 +75,32 @@ hr{
 .project-image img:hover{
     transform: scale(1.01);
 }
+.animate-proj{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.animate-proj.active{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media(min-width: 1537px){
+    .container{
+        min-width: 1280px;
+    }
+    .project-desc{
+        margin-top: -100px;
+    }
+    .project-desc p{
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .project-image{
+        margin-right: -200px;
+    }
+}
+
 @media(max-width: 1280px){
     .container{
         min-width: 1024px;
@@ -153,6 +179,7 @@ hr{
     .projects-wrapper{
         padding-top: 100px;
         height: 200vh;
+
     }
     .projects-header h1{
             font-size: 25px;
@@ -163,8 +190,15 @@ hr{
     .project-desc h1{ 
         font-size: 70px;
     }
-    .project-desc h3{
-        font-size: 55px;
+    .project-desc h3{ 
+        margin-top: -70px;
+        font-family: 'Bebas Neue', sans-serif;
+        letter-spacing: 2px;
+        font-size: 3.4rem;
+        -webkit-text-fill-color: #3f6dad;
+        -webkit-text-stroke-width: 0.01px;
+        -webkit-text-stroke-color: #3f6dad;
+        text-shadow: 2px 2px #000;
     }
     .project-desc p{
         font-size: 40px;
