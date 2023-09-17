@@ -46,6 +46,7 @@ hr{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
     color: #3bbdf7;
+    text-align: left 
 }
 .skills-content p{
     font-size: 18px;
@@ -55,6 +56,8 @@ hr{
     letter-spacing: 1px;
     line-height: 1.5rem;
     margin-top: -40px;
+    width: 700px;
+    text-align: left 
 }
 .skills-img {
     display: flex;
@@ -95,6 +98,9 @@ hr{
     opacity: 1;
     transform: translateY(0);
 }
+.skill{
+    position: relative;
+}
 .skills-bg {
     position: absolute;
     top: 0;
@@ -108,7 +114,7 @@ hr{
     height: 100%;
     font-size: 15vw;
     font-family: 'Anton', sans-serif;
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: -1;
     letter-spacing: 10px;
 }
@@ -210,18 +216,5 @@ hr{
         letter-spacing: 2px;
         line-height: 3rem;
     }
-    .skill {
-        width: 48%; /* Adjust this as needed */
-        margin-bottom: 1em; /* Adjust this for spacing */
-        text-align: center; /* Center the text */
-    }
-    .skill img {
-        width: 80%;
-        height: auto;
-    }
-    .skill span {
-        margin-top: 0px;
-        display: block;
-        font-size: 18px;
-    }
+
 }

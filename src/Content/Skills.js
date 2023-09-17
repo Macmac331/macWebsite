@@ -28,11 +28,11 @@ function Skills(){
                         <hr></hr>
                         <h1>Skills</h1>
                     </div>
-                    <section>
-                        <div ref={myRef} className='skills-container animate-skill'>
-                            <div className='skills-bg'>
+                    <section className='skill'>
+                        <div className='skills-bg'>
                                 <div className='bg'>SKILLS</div>
-                            </div>
+                        </div>
+                        <div ref={myRef} className='skills-container animate-skill'>
                             <div className='skills-content'>
                                 <h1>What I am capable of?</h1>
                                 <p>

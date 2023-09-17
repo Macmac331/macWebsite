@@ -206,10 +206,14 @@ hr{
         line-height: 3rem;
     }
     .project-image{
-        margin-top: -10px;
+        margin-top: 10px;
     }
     .project-image img{
         height: 500px;
+    }
+    .icon img{
+        height: 70px;
+        width: 70px;
     }
 
 }

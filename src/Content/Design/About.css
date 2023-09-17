@@ -84,7 +84,7 @@ hr{
     height: 100%;
     font-size: 15vw;
     font-family: 'Anton', sans-serif;
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: -1;
 }
 .bg {
@@ -221,7 +221,7 @@ hr{
     }
     .about-me{
         margin-top: 30px;
-        margin-left: -50px;
+        margin-left: -40px;
     }
     .about-me h1{   
         font-size: 80px;
