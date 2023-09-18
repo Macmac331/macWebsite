@@ -8,7 +8,7 @@
 }
 .about-header{
     display: flex;
-    align-items: center;
+    align-items: center;    
     margin-top: 10px;
 }
 hr{
@@ -113,7 +113,7 @@ hr{
     }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1280px) {X   
     .container {
       max-width: 1024px;
     }
