@@ -31,7 +31,7 @@ nav ul li a:hover{
 
 @media (max-width:475px){
     nav {
-        height: 20vh; /* Adjust the value to your preference */
+        height: 20vh;
     }
     nav ul li a{
         font-size: 25px;

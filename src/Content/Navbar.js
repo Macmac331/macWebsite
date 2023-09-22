@@ -1,6 +1,7 @@
 import './Design/Navbar.css';
 import { Link, animateScroll as scroll} from 'react-scroll';
-
+import {useState} from 'react';
+import { useInView } from 'react-intersection-observer';
 function NavBar(){
     return(
         <nav>

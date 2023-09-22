@@ -17,7 +17,6 @@ function Skills(){
     useEffect(() => {
         if(myElementIsVisible){
             document.querySelector('.animate-skill').classList.add('active');
-            
         }
     }, [myElementIsVisible]);
     return(
